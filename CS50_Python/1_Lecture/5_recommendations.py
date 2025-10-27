@@ -1,10 +1,10 @@
 def main():
-    difficulty = input("Difficult or Casual ?\n")
+    difficulty = input("Difficult or Casual ?\n").strip().title()
     if not (difficulty == "Difficult" or difficulty == "Casual"):
         print("Enter a valid difficulty")
         return 
         
-    players = input("Multiplayer or Single-player ?\n")
+    players = input("Multiplayer or Single-player ?\n").strip().title()
     if not(players == "Multiplayer" or players == "Single-player"):
         print("Enter a valid number of players")
         return
