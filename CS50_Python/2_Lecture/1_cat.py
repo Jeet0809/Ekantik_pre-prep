@@ -15,7 +15,7 @@ for _ in range(3) :
 
 print()
 
-print("meow\n" * 3 ,end= "\n")
+print("meow\n" * 3 )
 
 while True :
     n = int(input("Enter n : "))

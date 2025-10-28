@@ -6,5 +6,6 @@ students = [
 ]
 
 
+
 for student in students :
     print(student["name"] , student["place"] , student["status"], sep=", ")
